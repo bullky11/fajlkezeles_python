@@ -23,7 +23,7 @@ def fajlfeldolgozas(sorok):
         print(sor)
         nevek.append(sor[0])
         nemek.append(sor[1])
-        korok.append(sor[2])
+        korok.append(int(sor[2]))
         i+=1
     print(nevek,nemek,korok)
 
